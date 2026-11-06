@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заметки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Мои заметки</h1>
+
+    <form id="form">
+        <input type="text" id="title" placeholder="Заголовок" required>
+        <textarea id="text" placeholder="Текст заметки" required></textarea>
+        <div id="error" class="error"></div>
+        <button type="submit">Добавить</button>
+    </form>
+
+    <div id="list"></div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
