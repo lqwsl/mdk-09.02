@@ -1,0 +1,73 @@
+body {
+            font-family: Arial, sans-serif;
+            max-width: 450px;
+            margin: 30px auto;
+            padding: 0 15px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        form {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-delete {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .btn-delete:hover {
+            background-color: #bd2130;
+        }
+
+        .book-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .book-item span {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .book-item button {
+            background-color: #e0e0e0;
+            color: #333;
+            margin-left: 5px;
+        }
+
+        .book-item button:hover {
+            background-color: #ccc;
+        }
