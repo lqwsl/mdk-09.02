@@ -1,0 +1,9 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "Практическая работа по TypeScript",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

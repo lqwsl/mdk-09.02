@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TS-06</title>
+</head>
+<body>
+    <h2>Каталог товаров (TS-06)</h2>
+
+    <textarea id="json-input" rows="8" cols="60">[
+  { "id": 1, "name": "Мышь", "price": 1400, "available": true, "category": "Периферия" },
+  { "id": 2, "name": "Клавиатура", "price": 5000, "available": false }
+]</textarea>
+    <br>
+    <button id="import-btn" type="button">Импортировать и сохранить</button>
+    <button id="clear-btn" type="button">Очистить хранилище</button>
+
+    <p id="status"></p>
+    <ul id="list"></ul>
+
+    <script src="./dist/storage.js"></script>
+</body>
+</html>
