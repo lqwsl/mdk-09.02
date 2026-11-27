@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS-08</title>
+</head>
+<body>
+    <h1>Каталог товаров (TS-08)</h1>
+
+    <form id="product-form">
+        <div>
+            <label for="product-name">Название товара:</label>
+            <input id="product-name" name="name" type="text" required>
+        </div>
+
+        <div>
+            <label for="product-category">Категория:</label>
+            <select id="product-category" name="category">
+                <option value="Периферия">Периферия</option>
+                <option value="Мониторы">Мониторы</option>
+                <option value="Аксессуары">Аксессуары</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="product-price">Цена (руб.):</label>
+            <input id="product-price" name="price" type="number" min="0.01" step="0.01" required>
+        </div>
+
+        <div>
+            <label for="product-quantity">Количество:</label>
+            <input id="product-quantity" name="quantity" type="number" min="1" step="1" value="1" required>
+        </div>
+
+        <div>
+            <label>
+                <input id="product-featured" name="featured" type="checkbox">
+                Рекомендуемый товар
+            </label>
+        </div>
+
+        <button type="submit">Добавить товар</button>
+    </form>
+
+    <p id="status-message"></p>
+    <p id="total-price">Общая стоимость: 0.00 руб.</p>
+    <ul id="product-list"></ul>
+
+    <script src="./dist/catalog-dom.js"></script>
+</body>
+</html>
